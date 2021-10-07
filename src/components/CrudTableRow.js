@@ -1,7 +1,7 @@
 import React from "react";
 
 const CrudTableRow = ({ el, setDataToEdit, deleteData }) => {
-	const { name, constellation, id } = el;
+	const { name, constellation } = el;
 
 	return (
 		<>
